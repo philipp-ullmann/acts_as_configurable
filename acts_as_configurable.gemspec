@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{acts_as_configurable}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Philipp Ullmann"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{philipp.ullmann@create.at}
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.rdoc", "lib/acts_as_configurable.rb", "lib/dummy_access.rb"]
   s.files = ["CHANGELOG.rdoc", "Manifest", "README.rdoc", "Rakefile", "lib/acts_as_configurable.rb", "lib/dummy_access.rb", "acts_as_configurable.gemspec"]
-  s.homepage = %q{http://www.create.at}
+  s.homepage = %q{http://github.com/create-philipp-ullmann/acts_as_configurable}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Acts_as_configurable", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{acts_as_configurable}

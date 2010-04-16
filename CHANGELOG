@@ -1,0 +1,18 @@
+v0.0.4 (2010-04-16)
+
+* Added github url to gemspec i.e. http://github.com/create-philipp-ullmann/acts_as_configurable
+* Renamed CHANGELOG.rdoc to CHANGELOG so that echoe can parse it
+* Removed version string from Rakefile
+
+v0.0.3 (2010-04-16)
+
+* Modified gemspec
+* Added documentation for installation
+
+v0.0.2 (2010-04-16)
+
+* Added gemspec
+
+v0.0.1 (2010-04-15)
+
+* Initial release
