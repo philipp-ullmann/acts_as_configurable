@@ -1,0 +1,30 @@
+== Acts as configurable
+
+Provides the capabilities of defining configuration values for a model.
+
+== Installation
+
+== Initialisation
+
+Migration:
+
+ create_table :configurations do |t|
+   t.string :name, :value, :null => false
+   t.string :configurable_type
+   t.integer :configurable_id
+ end
+
+Configuration model:
+
+ class Configuration < ActiveRecord::Base
+   belongs_to :configurable, :polymorphic => true
+ end
+
+== Usage
+
+ class User < ActiveRecord::Base
+  	acts_as_configurable :class_name => 'Configuration'
+ end
+
+ user.configure.name = 'Name'
+ user.configure.name # => Name
