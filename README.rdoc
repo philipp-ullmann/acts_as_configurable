@@ -4,6 +4,8 @@ Provides the capabilities of defining configuration values for a model.
 
 == Installation
 
+ gem install acts_as_configurable
+
 == Initialisation
 
 Migration:
