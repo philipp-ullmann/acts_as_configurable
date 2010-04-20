@@ -1,3 +1,8 @@
+v0.0.6 (2010-04-20)
+
+* Gem build with jeweler instead of echoe
+* Testing with rspec
+
 v0.0.5 (2010-04-16)
 
 * Fixed gemspec file
