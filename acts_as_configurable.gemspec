@@ -19,12 +19,16 @@ Gem::Specification.new do |s|
   s.files = [
     ".gitignore",
      "CHANGELOG.rdoc",
+     "LICENSE",
      "README.rdoc",
      "Rakefile",
      "VERSION",
      "acts_as_configurable.gemspec",
      "lib/acts_as_configurable.rb",
-     "lib/dummy_access.rb"
+     "lib/dummy_access.rb",
+     "spec/acts_as_configurable_spec.rb",
+     "spec/spec.opts",
+     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/create-philipp-ullmann/acts_as_configurable}
   s.rdoc_options = ["--charset=UTF-8"]
