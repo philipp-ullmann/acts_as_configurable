@@ -1,9 +1,8 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+require 'rubygems'
 require 'active_record'
 require 'acts_as_configurable'
-require 'spec'
-require 'spec/autorun'
 
 ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :database => ":memory:")
 
@@ -32,7 +31,4 @@ end
 
 class Configuration < ActiveRecord::Base
   belongs_to :configurable, :polymorphic => true
-end
-
-Spec::Runner.configure do |config|
 end
