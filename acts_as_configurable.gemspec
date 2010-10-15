@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "acts_as_configurable.gemspec",
      "lib/acts_as_configurable.rb",
      "lib/dummy_access.rb",
+     "spec/.rspec",
      "spec/acts_as_configurable_spec.rb",
      "spec/spec_helper.rb"
   ]
